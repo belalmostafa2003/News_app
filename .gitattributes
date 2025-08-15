@@ -1,0 +1,9 @@
+# Ignore auto-generated C++/Swift files from language statistics
+*.cc linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cmake linguist-vendored
+*.swift linguist-vendored
+
+# Force Dart as the main language
+*.dart linguist-detectable=true
